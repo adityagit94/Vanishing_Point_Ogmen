@@ -21,7 +21,7 @@ To run this script, you'll need:
 
 You can typically install these with pip:
 ```bash
-pip install opencv-python numpy matplotlib
+pip install --quiet opencv-python-headless scikit-learn
 ```
 
 ## Getting Started
@@ -43,7 +43,7 @@ pip install opencv-python numpy matplotlib
 3.  **Run it:**
     Execute the script from your terminal:
     ```bash
-    python "Vanishing Point Estimation in Computer Vision.py"
+    python "Ogmen Vanishing Points.py"
     ```
     A window should appear, displaying your original image and the version with the perspective lines.
 
@@ -57,8 +57,9 @@ The script essentially:
 5.  Presents both images so you can see the effect.
 
 ## Example Output
+Before : ![vanishing-point-4468780__340](https://github.com/user-attachments/assets/1e36cb4e-7076-42a5-a4ca-cb78deb4a861)
 
-![17 17 01_81d5dfd8](https://github.com/user-attachments/assets/1d4fd124-c5e8-457b-bc52-5422be438bdf)
+After : ![image](https://github.com/user-attachments/assets/75fa77c4-d816-4220-84bc-b83d2c991c0f)
 
 
 
